@@ -7,6 +7,7 @@ from airflow.operators.python import PythonOperator
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
+
 dag = DAG(
     dag_id='example_dag_01',
     start_date=datetime(2024,10,17),
